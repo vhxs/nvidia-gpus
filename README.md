@@ -11,6 +11,7 @@
 
 - *CUDA* is Nvidia's proprietary API to execute code on their GPUs.
 - *kernels* are CUDA programs that run on Nvidia GPUs.
+- CPUs are *hosts*, GPUs are *devices*.
 - Blocks contain threads.
 - Grids contain blocks.
 - Streaming multiprocessors (SM) are made up of cores.
