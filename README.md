@@ -5,6 +5,7 @@
  - https://www.youtube.com/watch?v=lGefnd7Fmmo&list=PLFtDTZgdIZy5n8LWmhTic07zTN3hJQVfy&index=4
  - https://nyu-cds.github.io/python-gpu/02-cuda/
  - https://en.wikipedia.org/wiki/Thread_block_(CUDA_programming)
+ - https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/
 
 ## Terminology
 
