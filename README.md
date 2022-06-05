@@ -14,7 +14,7 @@
 - Grids contain blocks.
 - Streaming multiprocessors (SM) are made up of cores.
 - Warps always have 32 threads. A block is executed as several warps.
-- A thread block is assigned to run on an SM.
+- The GPU is responsible for allocating thread blocks to SMs.
 
 ## Example
 - I have an Nvidia GeForce GTX 1660 Ti.
