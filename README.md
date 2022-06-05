@@ -12,8 +12,8 @@
 - *CUDA* is Nvidia's proprietary API to execute code on their GPUs.
 - *kernels* are CUDA programs that run on Nvidia GPUs.
 - CPUs are *hosts*, GPUs are *devices*.
-- Blocks contain threads.
-- Grids contain blocks.
+- Blocks contain threads. Threads in a block can have 1d, 2d, or 3d indexes.
+- Grids contain blocks. Blocks in a grid can have 1d, 2d, or 3d indexes.
 - Streaming multiprocessors (SM) are made up of cores.
 - Warps always have 32 threads. A block is executed as several warps.
 - The GPU is responsible for allocating thread blocks to SMs.
