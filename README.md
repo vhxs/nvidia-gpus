@@ -19,3 +19,6 @@
 ## Example
 - I have an Nvidia GeForce GTX 1660 Ti.
 - I learned this by running `nvidia-smi --query-gpu=name --format=csv`.
+- Article on this particular GPU: https://www.nvidia.com/en-us/geforce/news/geforce-gtx-1660-ti-advanced-shaders-streaming-multiprocessor/
+  - Turing architecture.
+  - This GPU has 24 streaming multiprocessors and 1536 cores total (so 64 cores per SM).
