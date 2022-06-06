@@ -9,6 +9,7 @@
  - https://stackoverflow.com/a/10467342
  - https://www3.nd.edu/~zxu2/acms60212-40212-S16/Lec-11-GPU.pdf
  - http://15418.courses.cs.cmu.edu/spring2017/lecture/gpuarch/slide_004
+ - https://cvw.cac.cornell.edu/GPUarch/threadcore
 
 ## Terminology
 
