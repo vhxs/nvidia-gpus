@@ -21,6 +21,7 @@
 - Warps always have 32 threads. A block is executed as several warps.
 - A warp consists of lanes.
 - The GPU is responsible for allocating thread blocks to SMs.
+- Nvidia has changed the definition of "core" over time for marketing purposes.
 
 ## Example
 - I have an Nvidia GeForce GTX 1660 Ti.
