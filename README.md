@@ -33,6 +33,7 @@
   - One thread is scheduled to run on a single core. So a warp requires 32 cores to run. Number of cores in an SM is a multiple of 32.
   - Depending on number of blocks, there could be several blocks allocated to a single SM. They are executed in sequence.
   - SM can context switch between active warps, say if a warp is waiting on a memory access to complete. It may schedule another warp that is ready to run.
+  - Warp scheduling: https://www.cc.gatech.edu/fac/hyesoon/gputhread.pdf
 - How to choose grid and block dimensions https://stackoverflow.com/a/9986748
   - > There are people writing PhD theses around the quantitative analysis of aspects of the problem
 
