@@ -25,7 +25,14 @@
 - Nvidia has changed the definition of "core" over time for marketing purposes.
 
 ## Concepts
-- Up to programmer to determine parameters like threads per block, how to use the memory hierarchy, etc.
+- Programmer writes CUDA kernel. As part of writing kernel, they specify grid and block dimensions
+  - How many blocks per grid? How many threads per block?
+- The GPU will take these blocks, and allocate them across streaming multiprocessors
+  - One block gets mapped to a single SM. No spreading threads in a block across SMs.
+  - To execute a block, an SM will further divide threads in a block into warps. Warps are currently all of size 32 across all GPUs.
+  - One thread is scheduled to run on a single core. So a warp requires 32 cores to run. Number of cores in an SM is a multiple of 32.
+  - Depending on number of blocks, there could be several blocks allocated to a single SM. They are executed in sequence.
+  - SM can context switch between active warps, say if a warp is waiting on a memory access to complete. It may schedule another warp that is ready to run.
 - How to choose grid and block dimensions https://stackoverflow.com/a/9986748
   - > There are people writing PhD theses around the quantitative analysis of aspects of the problem
 
