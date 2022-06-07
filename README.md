@@ -27,6 +27,7 @@
 ## Concepts
 - Up to programmer to determine parameters like threads per block, how to use the memory hierarchy, etc.
 - How to choose grid and block dimensions https://stackoverflow.com/a/9986748
+  - > There are people writing PhD theses around the quantitative analysis of aspects of the problem
 
 ## GPU example
 - I have an Nvidia GeForce GTX 1660 Ti.
