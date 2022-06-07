@@ -24,9 +24,17 @@
 - The GPU is responsible for allocating thread blocks to SMs.
 - Nvidia has changed the definition of "core" over time for marketing purposes.
 
-## Example
+## Concepts
+- Up to programmer to determine parameters like threads per block, how to use the memory hierarchy, etc.
+- How to choose grid and block dimensions https://stackoverflow.com/a/9986748
+
+## GPU example
 - I have an Nvidia GeForce GTX 1660 Ti.
 - I learned this by running `nvidia-smi --query-gpu=name --format=csv`.
 - Article on this particular GPU: https://www.nvidia.com/en-us/geforce/news/geforce-gtx-1660-ti-advanced-shaders-streaming-multiprocessor/
   - Turing architecture.
   - This GPU has 24 streaming multiprocessors and 1536 cores total (so 64 cores per SM).
+
+## Code examples
+- Matrix multiplication https://github.com/vhxs/matrix-cuda
+- More to come
