@@ -21,8 +21,9 @@
 - Blocks contain threads. Threads in a block can have 1d, 2d, or 3d indexes.
 - Grids contain blocks. Blocks in a grid can have 1d, 2d, or 3d indexes.
 - Streaming multiprocessors (SM) are made up of cores.
+- Streaming multiprocessor execute blocks. An entire block must be run on a single SM.
 - Warps always have 32 threads. A block is executed as several warps.
-- A warp consists of lanes.
+- A warp consists of lanes (term doesn't seem to be used a lot though).
 - The GPU is responsible for allocating thread blocks to SMs.
 - Nvidia has changed the definition of "core" over time for marketing purposes.
 
