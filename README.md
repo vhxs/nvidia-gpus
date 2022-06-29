@@ -47,5 +47,6 @@
   - This GPU has 24 streaming multiprocessors and 1536 cores total (so 64 cores per SM).
 
 ## Code examples
-- Matrix multiplication https://github.com/vhxs/matrix-cuda
+- Vector addition: https://gist.github.com/vhxs/5bc0f4a00050ff277c43248a382e680f
+- Matrix multiplication: https://github.com/vhxs/matrix-cuda
 - More to come
