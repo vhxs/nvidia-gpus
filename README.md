@@ -39,6 +39,7 @@
   - Warp scheduling: https://www.cc.gatech.edu/fac/hyesoon/gputhread.pdf
 - How to choose grid and block dimensions https://stackoverflow.com/a/9986748
   - > There are people writing PhD theses around the quantitative analysis of aspects of the problem
+- `float` computation is much faster on GPUs than `double` computation. For some reason.
 
 ## GPU example
 - I have an Nvidia GeForce GTX 1660 Ti.
